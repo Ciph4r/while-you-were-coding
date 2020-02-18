@@ -10,17 +10,20 @@ while (cTwo < 20) {
     if (cTwo%3===0) console.log(cTwo)
 }
 
-// banner(3 )
-// let divBy3 = 0
-// while (divBy3 < 100){
-//     divBy3 = divBy3 + 3
-// }
+banner(3 )
+let cthree = 0
+let threeCount = 3
+let numthree = 0
+while (cthree < 20) {
+    console.log(threeCount)
+    cthree ++
+    while (cthree === threeCount) threeCount += 3 && numthree++
+    
+    console.log(threeCount)
+    console.log(numthree * 3)
+}
+console.log(threeCount )
 
-// let cThree = 0
-// while (cThree < 20) {
-//     cThree ++
-//     (cThree === divBy3) 
-// }
 
 banner (4)
 
@@ -85,3 +88,6 @@ console.log('Here today is:')
     if (newn === newn && names[i] !== '|' ) console.log(names[i])
      
  }
+
+
+
