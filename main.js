@@ -78,14 +78,11 @@ for (let i = str5.length ; i > 0 ; i = i - 1 ) {
 banner(10)
 
 
-const names = 'Colin|Mesuara|Denis|Wilson|Michael|Patrick|DeAundre|Jumary|Marc|Bogdan|Sharod|David|LaToddra|Carlos';
-let newn = 0
+const names = 'Colin|Mesuara|Denis|Wilson|Michael|Patrick|DeAundre|Jumary|Marc|Bogdan|Sharod|David|LaToddra|Carlos'
 console.log('Here today is:')
  for (let i = 0 ; i < names.length ; i++) {
-    
-    if (names[i] === '|') newn = newn + 1
     if (names[i] === '|') console.log('Here today is:')
-    if (newn === newn && names[i] !== '|' ) console.log(names[i])
+    if (names[i] !== '|' ) console.log(names[i])
      
  }
 
